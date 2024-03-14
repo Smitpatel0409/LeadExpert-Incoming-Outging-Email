@@ -1,0 +1,22 @@
+{
+  "name": "receiving-mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "receiveEmail.js",
+  "scripts": {
+    "start": "concurrently \"node receiveEmail.js\" \"cd public && npx http-server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "imap": "^0.8.19",
+    "mail-listener6": "^2.0.3",
+    "mailparser": "^3.6.7",
+    "mongodb": "^6.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
