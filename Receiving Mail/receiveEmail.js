@@ -5,8 +5,8 @@ const path = require('path');
 
 const app = express();
 const mailListener = new MailListener({
-    username: "ENTER YOUR GMAIL ID",
-    password: "ENTER YOUR GMAIL APP PASSWORD",
+    username: "ENTER YOUR EMAIL ID",
+    password: "ENTER YOUR EMAIL APP PASSWORD",
     host: "imap.gmail.com",
     port: 993,
     tls: true,
